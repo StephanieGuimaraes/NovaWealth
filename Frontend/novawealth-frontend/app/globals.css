@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Remove qualquer overlay/indicator de desenvolvimento */
+[data-nextjs-dev-overlay],
+[data-nextjs-build-indicator],
+div[style*="position: fixed"][style*="bottom"],
+div[style*="position: fixed"][style*="z-index: 9000"] {
+  display: none !important;
+}
+
+/* Remove botões circulares no canto inferior */
+button[style*="position: fixed"][style*="bottom"],
+div[style*="position: fixed"][style*="bottom"][style*="border-radius"] {
+  display: none !important;
+}
