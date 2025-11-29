@@ -4,7 +4,5 @@ NovaWealth is a modern financial education platform delivering smart analysis, u
 ## Resumo da arquitetura
 
 Frontend: Next.js (App Router) + React Compiler, Tailwind CSS, fontes Inter/Inter Tight
-
 Backend: Strapi (headless CMS) — usado para criar/editar artigos, categorias, tags, autores e servir imagens via API
-
 Deploy: Vercel (Next) + Railway / Render / Strapi Cloud (Strapi) — vou incluir notas de deploy.
