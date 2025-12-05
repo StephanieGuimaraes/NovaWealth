@@ -41,7 +41,7 @@ console.log("Fetch: ", articles);
               summary={article.summary}
               publishedAt={article.publishedAt}
               cover={article.coverImage.url ? `${STRAPI_URL}${article.coverImage.url}` : undefined}
-              
+              slug={article.slug}
             />
           );
         })}
